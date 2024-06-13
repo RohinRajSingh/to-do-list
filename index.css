@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
+*{
+    margin:0;
+    padding:10px;
+    font-family: "Tiny5", sans-serif;
+    background-color: bisque;
+   
+}
+.h3{
+    display:flex;
+    font-size: large;
+    font-weight: 600;
+    background-color: rgb(123, 123, 237);
+    justify-content: center;
+    margin-bottom: 1rem;
+
+}
+.date{
+    border-radius: 4px;
+    background-color: rgb(191, 255, 255);
+   
+}
+.Add-btn{
+    background-color: rgb(30, 201, 59);
+    border-radius: 4px;
+
+}
+.Add-btn:hover{
+    background-color: rgb(132, 228, 148);
+    border-radius: 4px;
+
+}
+.todogrid{
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    align-items: center;
+   
+}
+.red-btn{
+    background-color: red;
+}
+.red-btn:hover{
+    background-color: rgb(236, 160, 160);
+}
+
